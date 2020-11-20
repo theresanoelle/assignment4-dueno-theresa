@@ -1,4 +1,57 @@
+/*-----------------------------------------------------------------------------
+
+
+  Universal Styling
+
+
+-------------------------------------------------------------------------------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  border0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#nav {
+  position: fixed;
+  margin: 20px;
+  background: yellow opacity 70%;
+  text-transform: uppercase;
+}
+
+/*-----------------------------------------------------------------------------
+
+
+  Main Page Styling
+
+
+-------------------------------------------------------------------------------*/
+
 #hello {
   float: left;
   margin-right: 20px;
 }
+
+div.first {
+  position: relative;
+  top: 60px;
+  border: 2px blue;
+}
+
+#whatsup {
+  float: right;
+  margin-left: 10px;
+}
+
+div.second {
+  position: absolute;
+}
+
+/*-----------------------------------------------------------------------------
+
+
+  Second Page Styling
+
+
+-------------------------------------------------------------------------------*/
